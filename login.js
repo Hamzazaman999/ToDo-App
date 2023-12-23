@@ -15,7 +15,7 @@ signInWithEmailAndPassword(auth, email.value, password.value)
     // Signed in 
     const user = userCredential.user;
     console.log(user);
-    window.location = './home.html'
+    window.location = './index.html'
   })
   .catch((error) => {
     const errorCode = error.code;
