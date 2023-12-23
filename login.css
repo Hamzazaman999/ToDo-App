@@ -1,0 +1,36 @@
+body{
+    background: whitesmoke;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+text-align: center;
+}
+.home{
+    width: 360px;
+        padding: 35px;
+        text-align: center;
+        background-color: #32acd8;
+        margin-left: 33%;
+        margin-top: 10px;
+        border-radius: 15px;
+}
+input{
+    width: 270px;
+    height: 10px;
+    padding: 10px;
+    margin: 3px;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    border-radius: 5px;
+    font-size: 19px;
+}
+button{
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 19px;
+    cursor: pointer;
+    text-decoration: none;
+}
