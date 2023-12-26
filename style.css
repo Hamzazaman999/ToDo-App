@@ -19,11 +19,29 @@ input{
     outline: none;
     border-radius: 5px;
     font-size: 19px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 90px;
 }
 button{
-    width: 60px;
-    height: 38px;
+    width: 35px;
+    height: 32px;
     margin-left: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 19px;
+    cursor: pointer;
+}
+#add{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    margin-left: 83%;
     background-color: black;
     color: white;
     border-radius: 5px;
@@ -37,8 +55,10 @@ button{
     align-items: center;
     justify-content: center;
     margin-left: 86%;
+    background-color: black;
+    color: white;
 }
-.text ul{
+#title{
     position: relative;
     padding: 7px;
     background-color: white;
