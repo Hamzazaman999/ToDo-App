@@ -12,34 +12,16 @@
 <body>
    <div class="main">
     <button id="logoutbtn">Log Out</button>
-    <h1>ToDo App</h1>
-    <div class="input">
-        <input type="text" placeholder="Enter Your Task" id="inp">
-       <button onclick="Add()" id="addbtn">Add</button>
-    </div>
-    <div class="text">
+    <h1>TODO APP</h1>
+    <form id="form">
+        <input type="text" placeholder="Title" id="title">
+        <input type="text" placeholder="Description" id="description">
+        <button type="submit" id="add">Add</button>
+    </form>
+    <div class="container">
         
     </div>
    </div>
-   <script>
-    let input = document.querySelector("#inp");
-let text = document.querySelector(".text");
-
-function Add() {
-    if (input.value == "") {
-        alert("Please Enter A Task")
-    } else {
-        let newEle = document.createElement("ul");
-        newEle.innerHTML = `${input.value} <i class="fa-solid fa-trash"></i>`;
-        text.appendChild(newEle);
-        input.value = "";
-        newEle.querySelector("i").addEventListener("click", remove);
-        function remove() {
-            newEle.remove();
-        }
-    }
-}
-   </script>
     <script type="module" src="script.js"></script>
 </body>
 </html>
